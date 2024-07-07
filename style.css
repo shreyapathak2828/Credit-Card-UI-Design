@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    padding-top: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: #b995ae;
+}
+
+.container{
+    height:250px;
+    width: 450px;
+    border: solid black;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.container .chip{
+    float: right;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 35px;
+}
+
+.head .dot1 {
+    height: 35px;
+    width: 50px;
+  }
+
+.container .head{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.head .card{
+    height: 35px;
+    color:azure;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.container .middle{
+    padding-top: 40px;
+    color:azure;
+    padding-left: 20px;
+}
+
+.middle .text{
+   max-height: 10px;
+   font-size: 15px;
+}
+
+.middle .number{
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+.right .text{
+    max-height: 10px;
+}
+
+.right .number{
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+.container .right{
+    float: right;
+    padding-top: 20px;
+    color:azure;
+    padding-right: 20px;
+}
+
+.container .footer{
+    padding-top: 40px;
+    color:azure;
+    padding-left: 20px;
+}
+
+.footer .card{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color:azure;
+}
+
+
+
+
+
